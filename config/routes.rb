@@ -6,7 +6,6 @@ Rails.application.routes.draw do
     get 'age', to: 'pages#age'
 	post '/', to: 'pages#stringify', as: 'stringify'
 	put 'age', to: 'pages#person'
-	#get 'me', to: 'me#bio'
 	get 'me', to: 'pages#me'
 
 end
